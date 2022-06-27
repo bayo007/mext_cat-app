@@ -32,7 +32,7 @@ export default function Home() {
           <div className={styles["cards-container"]}>
             {cats.map((cat) => (
               <PetCard
-                key={id}
+                key={cat.id}
                 name={cat.name}
                 id={cat.id} //all this are props from the card.js file
                 phone={cat.phone}
